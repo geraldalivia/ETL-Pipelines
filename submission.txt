@@ -1,0 +1,47 @@
+Nama: Geralda Livia
+ID : MC299D5X1168
+Project: submission-pemda 
+
+# Url Google Sheets:
+https://docs.google.com/spreadsheets/d/1gVYtJ9EgPrmWrwqVGUuOWifF9nTmNgIGSosILiD32f4/edit?gid=0#gid=0
+
+# Url scrapping website
+https://fashion-studio.dicoding.dev
+
+Jumlah Data (Raw): 1000
+Jumlah Data setelah dibersihkan : 867
+
+# Submission: ETL Pipeline for Fashion Product Scraping
+
+Struktur Folder:
+├── tests/                   # Berisi unit tests untuk modul ETL
+│   ├── test_extract.py
+│   ├── test_transform.py
+│   └── test_load.py
+├── utils/                   # Berisi fungsi utama untuk extract, transform, dan load
+│   ├── extract.py
+│   ├── transform.py
+│   └── load.py
+├── main.py                 # Pipeline utama yang menjalankan ETL end-to-end
+├── requirements.txt        # Daftar dependensi Python
+├── submission.txt          # File penjelasan ini
+├── products.csv            # Hasil akhir produk yang disimpan ke file CSV
+├── google-sheets-api.json  # Credential untuk Google Sheets API (opsional)
+
+Instruksi untuk Menjalankan:
+1. Aktifkan virtual environment:  
+   `source .env/bin/activate`
+
+2. Install dependency:  
+   `pip install -r requirements.txt`
+
+3. Jalankan pipeline ETL:  
+   `python main.py`
+
+4. Jalankan unit test:  
+   `pytest tests/`
+
+Catatan:
+- Modul `extract.py` bertugas mengambil HTML dan mengekstrak data produk.
+- Modul `transform.py` membersihkan data yang tidak lengkap.
+- Modul `load.py` menyimpan hasil ke file CSV.
