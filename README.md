@@ -38,8 +38,8 @@ project-root/
 ## 🚀 Cara Menjalankan
 
 1. Clone repository ini dan masuk ke folder proyek.
-   `git clone https://github.com/geraldalivia/ETL-Pipelines.git`
-  ` cd ETL-Pipelines`
+   `git clone https://github.com/geraldalivia/ETL-Pipelines.git` <br>
+  ` cd ETL-Pipelines`<br>
    
 3. Aktifkan virtual environment:
    ```bash
