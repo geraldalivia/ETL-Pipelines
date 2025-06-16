@@ -29,8 +29,9 @@ project-root/
 ├── main.py                 # Pipeline utama yang menjalankan ETL end-to-end
 ├── requirements.txt        # Daftar dependensi Python
 ├── submission.txt          # File penjelasan projek ini
-├── products.csv            # Hasil akhir produk yang disimpan ke file CSV
+├── ETL-Pipeline.csv        # Hasil akhir produk yang disimpan ke file CSV
 ├── service_account.json    # Credential untuk Google Sheets API
+├── README.md 
 ```
 
 ---
