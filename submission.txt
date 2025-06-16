@@ -25,8 +25,9 @@ Struktur Folder:
 ├── main.py                 # Pipeline utama yang menjalankan ETL end-to-end
 ├── requirements.txt        # Daftar dependensi Python
 ├── submission.txt          # File penjelasan ini
-├── products.csv            # Hasil akhir produk yang disimpan ke file CSV
-├── google-sheets-api.json  # Credential untuk Google Sheets API (opsional)
+├── ETL-Pipelines.csv       # Hasil akhir produk yang disimpan ke file CSV
+├── service_account.json    # Credential untuk Google Sheets API
+├── README.md    
 
 Instruksi untuk Menjalankan:
 1. Aktifkan virtual environment:  
