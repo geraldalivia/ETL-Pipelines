@@ -37,7 +37,7 @@ project-root/
 
 ## 🚀 Cara Menjalankan
 
-1. Clone repository ini dan masuk ke folder proyek.
+1. Clone repository ini dan masuk ke folder proyek. <br>
    `git clone https://github.com/geraldalivia/ETL-Pipelines.git` <br>
   ` cd ETL-Pipelines`<br>
    
